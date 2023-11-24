@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body id="gamebackground">
+    <div id="Mainboxgame">
+        
+        <h1 id="Titleofthegame">GUESS THE NUMBER GAME</h1>
+        <h3 id="Instruction">Guess the number from 1 to 10</h3>
+       
+        
+        <p id="Life">Chances: 3</p>
+        <input id="inputGnumber" type="number" name="UserNum" required  min="0" max="10" />
+        <br>
+        <br>
+        <div class="Submits">
+            <button  id="Submit" type="button" onclick="game()" >Submit</button><br>
+            
+            <button id="Retry" type="button" onclick="reset()" disabled>Retry</button><br>
+        </div>
+            
+        <br>
+        <br>
+        <button id="logout" type="button" onclick="logout()" >Logout</button><br>
+        
+        
+       
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
